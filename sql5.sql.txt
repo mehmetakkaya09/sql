@@ -1,0 +1,16 @@
+dvdrental=# select title from film
+dvdrental-# where title like '%n'
+dvdrental-# order by title desc
+dvdrental-# limit 5
+dvdrental-# ;
+
+dvdrental=# select title from film
+dvdrental-# where title like '%n'
+dvdrental-# order by title
+dvdrental-# offset 5
+dvdrental-# limit 5;
+
+dvdrental=# select last_name from customer
+dvdrental-# where store_id = 1
+dvdrental-# order by last_name desc
+dvdrental-# limit 4;
